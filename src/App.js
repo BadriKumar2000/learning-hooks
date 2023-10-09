@@ -2,6 +2,7 @@ import React from "react";
 import ContextComponent from "./components/UseContext/ContextComponent";
 import "./App.css";
 import ReducerHookCounterOne from "./components/useReducer/ReducerHookCounterOne";
+import ReducerHookCounterTwo from "./components/useReducer/ReducerHookCounterTwo";
 
 export const UserContext = React.createContext();
 export const ChannelContext = React.createContext();
@@ -14,7 +15,8 @@ function App() {
           <ContextComponent />
         </ChannelContext.Provider>
       </UserContext.Provider> */}
-      <ReducerHookCounterOne />
+      {/* <ReducerHookCounterOne /> */}
+      <ReducerHookCounterTwo />
     </div>
   );
 }

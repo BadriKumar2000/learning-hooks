@@ -3,6 +3,7 @@ import ContextComponent from "./components/UseContext/ContextComponent";
 import "./App.css";
 import ReducerHookCounterOne from "./components/useReducer/ReducerHookCounterOne";
 import ReducerHookCounterTwo from "./components/useReducer/ReducerHookCounterTwo";
+import ReducerHookCounterThree from "./components/useReducer/ReducerHookCounterThree";
 
 export const UserContext = React.createContext();
 export const ChannelContext = React.createContext();
@@ -16,7 +17,8 @@ function App() {
         </ChannelContext.Provider>
       </UserContext.Provider> */}
       {/* <ReducerHookCounterOne /> */}
-      <ReducerHookCounterTwo />
+      {/* <ReducerHookCounterTwo /> */}
+      <ReducerHookCounterThree />
     </div>
   );
 }

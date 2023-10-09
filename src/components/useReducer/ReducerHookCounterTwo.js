@@ -46,10 +46,10 @@ function ReducerHookCounterTwo() {
       <button onClick={() => dispatch({ type: "reset" })}>Reset</button>
       <div>
         <button onClick={() => dispatch({ type: "increment2", value: 1 })}>
-          Increment
+          Increment2
         </button>
         <button onClick={() => dispatch({ type: "decrement2", value: 1 })}>
-          Decrement
+          Decrement2
         </button>
       </div>
     </div>

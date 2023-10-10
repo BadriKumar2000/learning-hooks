@@ -1,9 +1,14 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 
 function InputFocus() {
+  const inputRef = useRef(null);
+  useEffect(() => {
+    // the input feild should be foused when page opens
+    inputRef.current.focus();
+  }, []);
   return (
     <div>
-      <input type="text" />
+      <input ref={inputRef} type="text" />
     </div>
   );
 }

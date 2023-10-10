@@ -7,6 +7,7 @@ import ReducerHookCounterThree from "./components/useReducer/ReducerHookCounterT
 import FetchingDataOne from "./components/useReducer/FetchingDataOne";
 import FetchingDataTwo from "./components/useReducer/FetchingDataTwo";
 import ParentComponent from "./components/UseCallback/ParentComponent";
+import CounterOne from "./components/UseMemo/CounterOne";
 
 export const UserContext = React.createContext();
 export const ChannelContext = React.createContext();
@@ -24,7 +25,8 @@ function App() {
       {/* <ReducerHookCounterThree /> */}
       {/* <FetchingDataOne /> */}
       {/* <FetchingDataTwo /> */}
-      <ParentComponent />
+      {/* <ParentComponent /> */}
+      <CounterOne />
     </div>
   );
 }

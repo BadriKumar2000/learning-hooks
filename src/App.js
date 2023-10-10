@@ -9,6 +9,7 @@ import FetchingDataTwo from "./components/useReducer/FetchingDataTwo";
 import ParentComponent from "./components/UseCallback/ParentComponent";
 import CounterOne from "./components/UseMemo/CounterOne";
 import InputFocus from "./components/useRef/InputFocus";
+import Timer from "./components/useRef/Timer";
 
 export const UserContext = React.createContext();
 export const ChannelContext = React.createContext();
@@ -28,7 +29,8 @@ function App() {
       {/* <FetchingDataTwo /> */}
       {/* <ParentComponent /> */}
       {/* <CounterOne /> */}
-      <InputFocus />
+      {/* <InputFocus /> */}
+      <Timer />
     </div>
   );
 }

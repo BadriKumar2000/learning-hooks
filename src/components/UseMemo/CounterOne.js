@@ -10,6 +10,10 @@ function CounterOne() {
     setCountTwo(countTwo + 1);
   };
   const isEven = () => {
+    let i = 0;
+    while (i < 200000000) {
+      i++;
+    }
     return countOne % 2 === 0;
   };
   return (

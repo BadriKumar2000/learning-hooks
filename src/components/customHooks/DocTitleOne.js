@@ -1,10 +1,9 @@
 import React, { useState, useEffect } from "react";
+import useDocumentTitle from "../../Hooks/useDocumentTitle";
 
 function DocTitleOne() {
   const [count, setCount] = useState(0);
-  useEffect(() => {
-    document.title = `Your Count times- ${count}`;
-  }, [count]);
+  useDocumentTitle(count);
   return (
     <div>
       <button onClick={() => setCount(count + 1)}>count - {count}</button>

@@ -12,6 +12,7 @@ import InputFocus from "./components/useRef/InputFocus";
 import Timer from "./components/useRef/Timer";
 import DocTitleOne from "./components/customHooks/DocTitleOne";
 import CountOne from "./components/customHooks/CountOne";
+import CountTwo from "./components/customHooks/CountTwo";
 
 export const UserContext = React.createContext();
 export const ChannelContext = React.createContext();
@@ -34,7 +35,8 @@ function App() {
       {/* <InputFocus /> */}
       {/* <Timer /> */}
       {/* <DocTitleOne /> */}
-      <CountOne />
+      {/* <CountOne /> */}
+      <CountTwo />
     </div>
   );
 }

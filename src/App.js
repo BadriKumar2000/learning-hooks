@@ -10,6 +10,7 @@ import ParentComponent from "./components/UseCallback/ParentComponent";
 import CounterOne from "./components/UseMemo/CounterOne";
 import InputFocus from "./components/useRef/InputFocus";
 import Timer from "./components/useRef/Timer";
+import DocTitleOne from "./components/customHooks/DocTitleOne";
 
 export const UserContext = React.createContext();
 export const ChannelContext = React.createContext();
@@ -30,7 +31,8 @@ function App() {
       {/* <ParentComponent /> */}
       {/* <CounterOne /> */}
       {/* <InputFocus /> */}
-      <Timer />
+      {/* <Timer /> */}
+      <DocTitleOne />
     </div>
   );
 }

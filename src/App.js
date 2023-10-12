@@ -35,8 +35,8 @@ function App() {
       {/* <InputFocus /> */}
       {/* <Timer /> */}
       {/* <DocTitleOne /> */}
-      {/* <CountOne /> */}
-      <CountTwo />
+      <CountOne />
+      {/* <CountTwo /> */}
     </div>
   );
 }
